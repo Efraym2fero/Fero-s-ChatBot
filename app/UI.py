@@ -1,8 +1,6 @@
 import streamlit as st 
 from streamlit_chat import message
 from langchain_mistralai import ChatMistralAI
-from dotenv import load_dotenv
-import os
 from langchain.messages import HumanMessage, AIMessage, SystemMessage
 
 
